@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
+    <link rel="stylesheet" href="css/contact.css" />
   </head>
   <body>
     <!-- nav -->
@@ -23,7 +24,58 @@
     </nav>
     <!-- section 1 -->
     <h1>Notre histoire</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus reiciendis
+      molestiae dolor qui quisquam veritatis odio nemo officiis, nesciunt, nisi,
+      molestias architecto! Aperiam exercitationem nostrum placeat hic
+      perspiciatis autem dolore.
+    </p>
+    <!-- carousel paysage -->
+    <div class="container">
+      <div id="slider">
+        <input type="radio" id="show_slide1" name="slider_commands" />
+        <input type="radio" id="show_slide2" name="slider_commands" />
+        <input type="radio" id="show_slide3" name="slider_commands" />
+        <input type="radio" id="play_slider" name="slider_commands" />
 
+        <div id="slides">
+          <figure id="slide1">
+            <img
+              src="https://i.postimg.cc/BZDYtgsp/bled-2608425-1920.jpg
+                "
+              alt="Village au bord d'un lac"
+            />
+            <figcaption>Village au bord d'un lac</figcaption>
+          </figure>
+          <figure id="slide2">
+            <img
+              src="https://i.postimg.cc/nhdTNSYF/mountain-landscape-2031539-1920.jpg
+                "
+              alt="Paysage de montagne"
+            />
+            <figcaption>Paysage de montagne</figcaption>
+          </figure>
+          <figure id="slide3">
+            <img
+              src="https://i.postimg.cc/15sHX1vR/road-1072823-1920.jpg
+                "
+              alt="Forêt en automne"
+            />
+            <figcaption>Forêt en automne</figcaption>
+          </figure>
+        </div>
+        <nav>
+          <ul class="dots_commands">
+            <li><label for="show_slide1">Slide 1</label></li>
+            <li><label for="show_slide2">Slide 2</label></li>
+            <li><label for="show_slide3">Slide 3</label></li>
+          </ul>
+          <label for="play_slider" aria-label="Play" id="play" title="Play"
+            >Play</label
+          >
+        </nav>
+      </div>
+    </div>
     <!-- footer -->
   </body>
 </html>
